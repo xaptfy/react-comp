@@ -1,0 +1,36 @@
+.profile {
+	min-height: 80vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.avatar {
+		width: 100%;
+		max-width: 400px;
+		max-height: 400px;
+		border-radius: 50%;
+	}
+
+	.info {
+		margin-top: 35px;
+		width: 100%;
+		font-size: 26px;
+
+		li {
+			margin-top: 5px;
+			padding: 5px;
+			border-bottom: 1px solid #cccccc;
+		}
+	}
+
+	.buttons {
+		margin-top: 35px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		button {
+			margin-top: 15px;
+		}
+	}
+}
